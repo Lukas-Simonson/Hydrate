@@ -1,4 +1,19 @@
-# Hydrate
+<div align="center">
+    <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Lukas-Simonson/Hydrate/blob/main/hydrateLogoDark.png?raw=true">
+        <source media="(prefers-color-scheme: light)" srcset="https://github.com/Lukas-Simonson/Hydrate/blob/main/hydrateLogoLight.png?raw=true">
+        <img alt="Hydrate: a Dependency Injection Framework for Swift" src="https://raw.githubusercontent.com/groue/GRDB.swift/master/GRDB.png" width=200>
+    </picture>
+</div>
+
+<p align="center">
+    <strong>A Swift Dependency Injection Framework Made Simple</strong><br>
+</p>
+
+<p align="center">
+    <a href="https://developer.apple.com/swift/"><img alt="Swift 5.10" src="https://img.shields.io/badge/swift-5.10-orange.svg?style=flat"></a>
+    <a href="LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-black.svg"></a>
+</p>
 
 ## Overview
 Hydrate is a Swift Dependency Injection (DI) framework designed with ease of use, and simplicity as its goal. Leveraging the power of DI, Hydrate allows you to decouple components, making your codebase more modular, testable, and maintainable. Hydrate provides a simple, and beautiful approach to dependency management, supporting a variety of injection patterns, including singleton instances, factory-generated dependencies, and the ability to build your own provider implementations. With thread-safe storage and a clean, intuitive API, Hydrate ensures that your dependencies are resolved efficiently and safely, even in complex, multi-threaded environments.
