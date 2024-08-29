@@ -2,7 +2,7 @@
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Lukas-Simonson/Hydrate/blob/main/hydrateLogoDark.png?raw=true">
         <source media="(prefers-color-scheme: light)" srcset="https://github.com/Lukas-Simonson/Hydrate/blob/main/hydrateLogoLight.png?raw=true">
-        <img alt="Hydrate: a Dependency Injection Framework for Swift" src="https://raw.githubusercontent.com/groue/GRDB.swift/master/GRDB.png" width=200>
+        <img alt="Hydrate: a Dependency Injection Framework for Swift" src="https://github.com/Lukas-Simonson/Hydrate/blob/main/hydrateLogoLight.png?raw=true" width=200>
     </picture>
 </div>
 
