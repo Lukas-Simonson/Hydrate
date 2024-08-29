@@ -73,7 +73,8 @@ Container.registerSingleton(as: MovieRepository.self, named: "cachedRepository")
 ### Resolving Dependencies
 Once your dependencies are registered, resolving them in Hydrate is very straightforward. The framework provides several ways to access and inject your dependencies, ensuring they are available wherever you need them in your application.
 
-    NOTE: Attempting to resolve a dependency with no matching provider registered will result in a runtime error.
+> [!WARNING]
+> Attempting to resolve a dependency with no matching provider registered will result in a runtime error.
 
 #### Resolving A Dependency
 The most direct way to resolve a dependency is by using the `resolve` method on a `Container`:
